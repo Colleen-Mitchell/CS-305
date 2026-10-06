@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.4.xsd"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.4.xsd
+                                  https://dependency-check.github.io/DependencyCheck/dependency-suppression.1.4.xsd">
+    <suppress>
+        <notes><![CDATA[
+        file name: spring-boot-data-rest-4.2.0-M1.jar
+        ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.springframework\.boot/spring-boot-data-rest@.*$</packageUrl>
+        <cve>CVE-2026-47849</cve>
+    </suppress>
+    <suppress>
+    <notes><![CDATA[
+    file name: spring-boot-data-rest-4.2.0-M1.jar
+    ]]></notes>
+    <packageUrl regex="true">^pkg:maven/org\.springframework\.boot/spring-boot-data-rest@.*$</packageUrl>
+    <cve>CVE-2026-47850</cve>
+</suppress>
+</suppressions>
